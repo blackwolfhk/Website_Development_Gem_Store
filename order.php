@@ -2,7 +2,7 @@
 
 <form action="/functions.php?op=createOrder" method="post">
 
-  <label for="gem_name">Pre-order Product Name </label>
+  <label for="gem_name">Pre-order List</label>
   <input type="hidden" id="gem_id" name="gem_id" value="<?php echo $_GET['gem_id'];?>">
 
   <!-- As gem_id index start from 0, we need to use "-1" to indicate relevant product-->
@@ -20,5 +20,6 @@
   <br>
   <input class="buyBtn" type="submit" value="Submit Order">
 </form> 
+
 
 <?php include 'footer.php';?>

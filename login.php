@@ -1,5 +1,15 @@
 <?php include('header.php'); ?>
 
-Login
+<form action="functions.php?op=checkLogin" method="post">
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" require><br>
+  
+  <label for="email">Password:</label>
+  <input type="password" id="password" name="password">
+  
+  <br>
+  <input type="submit" value="登入">
+</form> 
 
 <?php include('footer.php'); ?>
